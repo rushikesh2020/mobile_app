@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero-section{
+    /* background-color: #d45150; */
+    padding: 45px;
+    background-image: linear-gradient(rgb(217, 52, 46, 0.5), rgb(217, 52, 46, 0.5)), url("../Images/Layer 5.jpg");
+    background-attachment: fixed;
+    overflow:hidden;
+}
+
+.logo{
+    margin-bottom: 140px;
+}
+
+.navbar ul{
+    padding-top: 15px;
+}
+
+.navbar ul a{
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.chocolate-info h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.chocolate-info p{
+    font-size: 36px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.chocolate-info a{
+    background-color: #282828;
+    color: #ffffff;
+    font-weight: bold;
+    /* font-size: 17px; */
+    text-transform: uppercase;
+    padding: 15px 50px 15px 35px;
+    vertical-align: middle;
+    border-radius: 45px;
+    display: inline-block;
+}
+
+.fas{
+    color: #ffffff;
+    margin-right: 25px;
+    font-size: 45px;
+}
+
+.mobile-img{
+    position: relative;
+}
+
+.mobile-img img{
+    position: absolute;
+    right: -20px;
+    top: -40px;
+    width: 95%;
+}
+
+/* feature sections */
+
+.app-features{
+    padding: 85px 0 100px;
+}
+
+.features-heading h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #8a8a8a;
+    text-transform: uppercase;
+    /* text-align: center; */
+    margin-bottom: 40px;
+}
+
+.features-heading p{
+    font-size: 22px;
+    color: #3a3a3a;
+    margin-bottom: 60px;
+}
+
+.thumnails img{
+    margin-bottom: 36px;
+}
+
+.thumnails h3{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.thumnails p{
+    font-size: 18px;
+    color: #646464;
+}
+
+/* fruitsection from here  */
+
+.fruitsection{
+    padding: 200px 0 170px;
+    background-image: url('../Images/Rectangle 1.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+.fruitsinfo h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.fruitsinfo h1 span{
+    color: #f55150
+}
+
+.fruitsinfo p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #585858;
+    margin-bottom: 70px;
+}
+
+.fruitsinfo a{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #f55150;
+    padding: 20px 25px;
+    border-radius: 40px;
+}

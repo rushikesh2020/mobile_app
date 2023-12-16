@@ -1,0 +1,55 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+    text-decoration: none;
+
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+    display: table;
+}
+
+[class^="col-"]{
+    float: left;
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-8{
+    width: calc(100% * 8/12);
+}
+
+.offset-2{
+    margin-left: calc(100% * 2/12);
+}
+
+.col-4{
+    width: calc(100% * 4/12);
+}
+
+.col-7{
+    width:  calc((100% * 7/12));
+}
+
+.align-center{
+    text-align: center;
+}
